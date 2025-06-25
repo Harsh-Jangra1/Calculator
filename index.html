@@ -11,31 +11,32 @@
 <body>
   <div id="calculator">
 
-    <input type="text" name="" pattern="^[0-9+\-*/().\s]+$" id="">
+    <input type="text" id="user-input" value="0" readonly>
+
     <div class="calc-btn">
-      <button type="button" class="key-others opreations">Ac</button>
-      <button type="button" class="key-others opreations">C</button>
-      <button type="button" class="key-others opreations">%</button>
-      <button type="button" class="key-operate opreations">/</button>
+      <button type="button" class="key-others operations">Ac</button>
+      <button type="button" class="key-others operations">C</button>
+      <button type="button" class="key-others operations">%</button>
+      <button type="button" aria-label="divide" class="key-operate operations">/</button>
 
-      <button type="button" class="number opreations">7</button>
-      <button type="button" class="number opreations">8</button>
-      <button type="button" class="number opreations">9</button>
-      <button type="button" class="key-operate opreations">*</button>
+      <button type="button" class="number operations">7</button>
+      <button type="button" class="number operations">8</button>
+      <button type="button" class="number operations">9</button>
+      <button type="button" aria-label="multiply" class="key-operate operations">*</button>
 
-      <button type="button" class="number opreations">4</button>
-      <button type="button" class="number opreations">5</button>
-      <button type="button" class="number opreations">6</button>
-      <button type="button" class="key-operate opreations">-</button>
+      <button type="button" class="number operations">4</button>
+      <button type="button" class="number operations">5</button>
+      <button type="button" class="number operations">6</button>
+      <button type="button" aria-label="substract" class="key-operate operations">-</button>
 
-      <button type="button" class="number opreations">1</button>
-      <button type="button" class="number opreations">2</button>
-      <button type="button" class="number opreations">3</button>
-      <button type="button" class="key-operate opreations">+</button>
+      <button type="button" class="number operations">1</button>
+      <button type="button" class="number operations">2</button>
+      <button type="button" class="number operations">3</button>
+      <button type="button" aria-label="add" class="key-operate operations">+</button>
 
-      <button type="button" class="number opreations">0</button>
-      <button type="button" class="number opreations">.</button>
-      <button type="button" class="key-operate opreations">=</button>
+      <button type="button" class="number operations">0</button>
+      <button type="button" class="number operations">.</button>
+      <button type="button" class="key-operate operations">=</button>
     </div>
   </div>
 
